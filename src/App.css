@@ -1,0 +1,44 @@
+.container {
+    min-height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.container_title {
+    
+  text-shadow: 0.15em 0.15em  #9999; 
+  font-size: 2rem;
+
+
+}
+
+.container_phrase {
+    width: 100%;
+    max-width: 30em;
+    background-color: rgba(red, green, blue, alpha); ;
+    padding: 1.5em 2em;
+    line-height: 1.4;
+    border-radius: 0.7em;
+}
+
+.container_btn {
+   padding: 0.8em 1.2em;
+   border-radius: 0.7em;
+   font-size: 1rem;
+   opacity: 0.5;
+   cursor: pointer;
+   transition: all 200ms ease,
+                
+   
+}
+
+.container_btn:hover {
+    opacity: 1;
+    transform: scale(1.25);
+    box-shadow: 0 0 0.8em #005;
+}
